@@ -18,8 +18,7 @@ Migration of settings (global, WMS, WFS, ...) is not yet implemented, but could 
 
 Adjust the `config.toml` to your environment or needs.
 
-If you want to use a GeoServer available on your host, the internal docker IP `172.17.0.1` (or whatever it is in your case) can be used to access it from the sync container.
-
+If you want to run the tool in docker and use a GeoServer available on your host, the internal docker host IP `172.17.0.1` (or whatever it is in your case) can be used to access it from the container where the sync tool is running.
 
 ## Build & Run
 
@@ -51,8 +50,6 @@ GeoServer does not accept encrypted (`crypt2:...`) password values via REST POST
 So whenever the sync tool finds a password field/key in datastores, it will prompt the user for the raw password to be able to POST it.
 
 Therefore you should also make sure to always use HTTPS secured GeoServers on target side!
-
-There might be scenarios (for certain extensions?) that are not yet supported.
 
 
 ## Existing data
