@@ -1,0 +1,9 @@
+[source]
+url = "http://localhost:8081/geoserver"
+user = "admin"
+password = "geoserver"
+
+[target]
+url = "http://localhost:9090/geoserver"
+user = "admin"
+password = "geoserver"

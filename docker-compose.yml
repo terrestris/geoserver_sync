@@ -1,0 +1,8 @@
+services:
+  geoserver-sync:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: "no"
+    volumes:
+      - ./config.toml:/src/config.toml

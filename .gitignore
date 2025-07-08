@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches & logs
+*.log
+*.sqlite3
+.cache/
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+pip-log.txt
+
+# Docker
+*.pid
+*.tar
+*.img
+*.bak
+docker-compose.override.yml
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+*.ipynb_checkpoints
+
+*~
